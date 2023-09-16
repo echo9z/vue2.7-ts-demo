@@ -25,7 +25,7 @@ export default defineConfig({
 		alias: {
 			'@': '/src',
 		},
-    extensions:['.mjs','.js','.ts','.jsx','.tsx','.vue']
+    extensions:['.mjs','.js','.ts','.jsx','.tsx']
 	},
   //静态资源处理
   assetsInclude: "",

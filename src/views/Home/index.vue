@@ -14,9 +14,9 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+import { computed } from 'vue'
 import { useCounterStore } from '@/store/modules/count'
-import Parent from '../../components/Parent.vue';
+import Parent from '../../components/Parent.vue'
 const countStore = useCounterStore()
 // const count = ref(0)
 // count.value = countStore.count
