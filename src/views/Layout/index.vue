@@ -9,6 +9,7 @@
     <ul>
       <li><router-link to="/home">home</router-link></li>
       <li><router-link to="/about">about</router-link></li>
+      <li><router-link to="/article">article</router-link></li>
     </ul>
     <hr>
     <router-view />

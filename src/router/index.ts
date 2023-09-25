@@ -15,13 +15,19 @@ export const constantRoutes = [
         path: 'home',
         component: () => import('@/views/Home/index.vue'),
         name: 'Home',
-        meta: { title: 'home', icon: 'homepage', affix: true }
+        meta: { title: 'home', icon: 'home-page', affix: true }
       },
       {
         path: 'about',
-        component: () => import('@/views/About/index.tsx'),
+        component: () => import('@/views/About/index'),
         name: 'About',
-        meta: { title: 'about', icon: 'aboutpage', affix: true }
+        meta: { title: 'about', icon: 'about-page', affix: true }
+      },
+      {
+        path: 'article',
+        component: () => import('@/views/Article/index'),
+        name: 'About',
+        meta: { title: 'article', icon: 'article-page', affix: true }
       }
     ]
   }

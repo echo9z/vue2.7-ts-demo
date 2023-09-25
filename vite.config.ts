@@ -62,7 +62,7 @@ export default defineConfig({
         // target: "https://xxxx.com/",
         // changeOrigin: true,
         // rewrite: (path) => path.replace(/^/api/, '')
-      },
+      }
     },
   },
   optimizeDeps: {
